@@ -51,25 +51,18 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libchromatix_s5k3h1gx_hfr.so:system/lib/libchromatix_s5k3h1gx_hfr.so \
   vendor/htc/pyramid/proprietary/lib/libchromatix_s5k3h1gx_preview.so:system/lib/libchromatix_s5k3h1gx_preview.so \
   vendor/htc/pyramid/proprietary/lib/libchromatix_s5k3h1gx_zsl.so:system/lib/libchromatix_s5k3h1gx_zsl.so \
-        vendor/htc/pyramid/proprietary/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
-        vendor/htc/pyramid/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
-        vendor/htc/pyramid/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
-        vendor/htc/pyramid/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
-        vendor/htc/pyramid/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
-        vendor/htc/pyramid/proprietary/lib/egl/libplayback_adreno200.so:/system/lib/egl/libplayback_adreno200.so \
-        vendor/htc/pyramid/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
-        vendor/htc/pyramid/proprietary/lib/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
-        vendor/htc/pyramid/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
-        vendor/htc/pyramid/proprietary/lib/libllvm-a3xx.so:/system/lib/libllvm-a3xx.so \
-        vendor/htc/pyramid/proprietary/lib/libOpenCL.so:/system/lib/libOpenCL.so \
-        vendor/htc/pyramid/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
-        vendor/htc/pyramid/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
-        vendor/htc/pyramid/proprietary/etc/firmware/a225p5_pm4.fw:/system/etc/firmware/a225p5_pm4.fw \
-        vendor/htc/pyramid/proprietary/etc/firmware/a225_pfp.fw:/system/etc/firmware/a225_pfp.fw \
-        vendor/htc/pyramid/proprietary/etc/firmware/a225_pm4.fw:/system/etc/firmware/a225_pm4.fw \
-        vendor/htc/pyramid/proprietary/etc/firmware/leia_pfp_470.fw:/system/etc/firmware/leia_pfp_470.fw \
-        vendor/htc/pyramid/proprietary/etc/firmware/leia_pm4_470.fw:/system/etc/firmware/leia_pm4_470.fw \
-        vendor/htc/pyramid/proprietary/etc/firmware/vidc_1080p.fw:/system/etc/firmware/vidc_1080p.fw \
+  vendor/htc/pyramid/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+  vendor/htc/pyramid/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+  vendor/htc/pyramid/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+  vendor/htc/pyramid/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+  vendor/htc/pyramid/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+  vendor/htc/pyramid/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
+  vendor/htc/pyramid/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+  vendor/htc/pyramid/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+  vendor/htc/pyramid/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+  vendor/htc/pyramid/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
+  vendor/htc/pyramid/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+  vendor/htc/pyramid/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
   vendor/htc/pyramid/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/pyramid/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/pyramid/proprietary/lib/libdll.so:system/lib/libdll.so \
@@ -84,4 +77,13 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/pyramid/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/pyramid/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
-  vendor/htc/pyramid/proprietary/lib/libmpl.so:system/lib/libmpl.so
+  vendor/htc/pyramid/proprietary/lib/libmpl.so:system/lib/libmpl.so \
+  vendor/htc/pyramid/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
+  vendor/htc/pyramid/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
+  vendor/htc/pyramid/proprietary/etc/firmware/fw_bcmdhd_p2p.bin:system/etc/firmware/fw_bcmdhd_p2p.bin \
+  vendor/htc/pyramid/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+  vendor/htc/pyramid/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+  vendor/htc/pyramid/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+  vendor/htc/pyramid/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+  vendor/htc/pyramid/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+  vendor/htc/pyramid/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw
