@@ -128,6 +128,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/lib/libHTC_DIS.so:system/lib/libHTC_DIS.so \
   vendor/htc/m4/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
   vendor/htc/m4/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+  vendor/htc/m4/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
   vendor/htc/m4/proprietary/lib/libmmcamera_aec.so:system/lib/libmmcamera_aec.so \
   vendor/htc/m4/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
   vendor/htc/m4/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
@@ -140,6 +141,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
   vendor/htc/m4/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
   vendor/htc/m4/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+  vendor/htc/m4/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
   vendor/htc/m4/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/htc/m4/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/m4/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
