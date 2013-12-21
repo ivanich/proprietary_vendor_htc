@@ -26,52 +26,12 @@ PRODUCT_COPY_FILES += \
   vendor/htc/mystul/proprietary/etc/hldm.bin:system/etc/hldm.bin \
   vendor/htc/mystul/proprietary/etc/hltof.bin:system/etc/hltof.bin \
   vendor/htc/mystul/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
-  vendor/htc/mystul/proprietary/etc/firmwarefw_bcm4334.bin:/system/etc/firmware/fw_bcm4334.bin \
-  vendor/htc/mystul/proprietary/etc/firmwarefw_bcm4334_apsta.bin:/system/etc/firmware/fw_bcm4334_apsta.bin \
-  vendor/htc/mystul/proprietary/etc/firmwarefw_bcm4334_p2p.bin:/system/etc/firmware/fw_bcm4334_p2p.bin \
-  vendor/htc/mystul/proprietary/etc/firmwareBCM4334B0_002.001.013.0488.0604.hcd:/system/etc/firmware/BCM4334B0_002.001.013.0488.0604.hcd
-  vendor/htc/mystul/proprietary/etc/firmwarea300_pm4.fw:/system/etc/firmware/a300_pm4.fw \
-  vendor/htc/mystul/proprietary/etc/firmwarea300_pfp.fw:/system/etc/firmware/a300_pfp.fw \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem_fw.b00:/system/etc/firmware/modem_fw.b00 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem_fw.b01:/system/etc/firmware/modem_fw.b01 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem_fw.b02:/system/etc/firmware/modem_fw.b02 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem_fw.b03:/system/etc/firmware/modem_fw.b03 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem_fw.b04:/system/etc/firmware/modem_fw.b04 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem_fw.b05:/system/etc/firmware/modem_fw.b05 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem_fw.b06:/system/etc/firmware/modem_fw.b06 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem_fw.b07:/system/etc/firmware/modem_fw.b07 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem_fw.b08:/system/etc/firmware/modem_fw.b08 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem_fw.b09:/system/etc/firmware/modem_fw.b09 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem_fw.b10:/system/etc/firmware/modem_fw.b10 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem_fw.b11:/system/etc/firmware/modem_fw.b11 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem_fw.b13:/system/etc/firmware/modem_fw.b13 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem_fw.b14:/system/etc/firmware/modem_fw.b14 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem_fw.b21:/system/etc/firmware/modem_fw.b21 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem_fw.b22:/system/etc/firmware/modem_fw.b22 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem_fw.b23:/system/etc/firmware/modem_fw.b23 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem_fw.b25:/system/etc/firmware/modem_fw.b25 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem_fw.b26:/system/etc/firmware/modem_fw.b26 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem_fw.b29:/system/etc/firmware/modem_fw.b29 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem_fw.mdt:/system/etc/firmware/modem_fw.mdt \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem.b00:/system/etc/firmware/modem.b00 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem.b01:/system/etc/firmware/modem.b01 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem.b02:/system/etc/firmware/modem.b02 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem.b03:/system/etc/firmware/modem.b03 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem.b04:/system/etc/firmware/modem.b04 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem.b05:/system/etc/firmware/modem.b05 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem.b06:/system/etc/firmware/modem.b06 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem.b07:/system/etc/firmware/modem.b07 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem.b08:/system/etc/firmware/modem.b08 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem.b09:/system/etc/firmware/modem.b09 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem.b10:/system/etc/firmware/modem.b10 \
-  vendor/htc/mystul/proprietary/etc/firmwaremodem.mdt:/system/etc/firmware/modem.mdt \
-  vendor/htc/mystul/proprietary/etc/firmwareq6.b00:/system/etc/firmware/q6.b00 \
-  vendor/htc/mystul/proprietary/etc/firmwareq6.b01:/system/etc/firmware/q6.b01 \
-  vendor/htc/mystul/proprietary/etc/firmwareq6.b03:/system/etc/firmware/q6.b03 \
-  vendor/htc/mystul/proprietary/etc/firmwareq6.b04:/system/etc/firmware/q6.b04 \
-  vendor/htc/mystul/proprietary/etc/firmwareq6.b05:/system/etc/firmware/q6.b05 \
-  vendor/htc/mystul/proprietary/etc/firmwareq6.b06:/system/etc/firmware/q6.b06 \
-  vendor/htc/mystul/proprietary/etc/firmwareq6.mdt:/system/etc/firmware/q6.mdt \
+  vendor/htc/mystul/proprietary/etc/firmware/fw_bcm4334.bin:/system/etc/firmware/fw_bcm4334.bin \
+  vendor/htc/mystul/proprietary/etc/firmware/fw_bcm4334_apsta.bin:/system/etc/firmware/fw_bcm4334_apsta.bin \
+  vendor/htc/mystul/proprietary/etc/firmware/fw_bcm4334_p2p.bin:/system/etc/firmware/fw_bcm4334_p2p.bin \
+  vendor/htc/mystul/proprietary/etc/firmware/BCM4334B0_002.001.013.0488.0607.hcd:/system/etc/firmware/BCM4334B0_002.001.013.0488.0607.hcd \
+  vendor/htc/mystul/proprietary/etc/firmware/a300_pm4.fw:/system/etc/firmware/a300_pm4.fw \
+  vendor/htc/mystul/proprietary/etc/firmware/a300_pfp.fw:/system/etc/firmware/a300_pfp.fw \
   vendor/htc/mystul/proprietary/bin/asound:system/bin/asound \
   vendor/htc/mystul/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
   vendor/htc/mystul/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
@@ -99,7 +59,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/mystul/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/mystul/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/mystul/proprietary/bin/thermald:system/bin/thermald \
-
   vendor/htc/mystul/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/mystul/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
   vendor/htc/mystul/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
@@ -117,11 +76,11 @@ PRODUCT_COPY_FILES += \
   vendor/htc/mystul/proprietary/lib/libdm-systemaccess.so:system/lib/libdm-systemaccess.so \
   vendor/htc/mystul/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
   vendor/htc/mystul/proprietary/lib/libdss.so:system/lib/libdss.so \
-  vendor/htc/mystul/proprietary/lib/libqcomm_jni.so:system/lib/libqcomm_jni.so \
+  vendor/htc/mystul/proprietary/lib/libgcomm_jni.so:system/lib/libgcomm_jni.so \
   vendor/htc/mystul/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
-  vendor/htc/mystul/proprietary/lib/libqcomoxsample_jb.so:system/lib/libqcomoxsample_jb.so \
+  vendor/htc/mystul/proprietary/lib/libqcomomxsample_jb.so:system/lib/libqcomomxsample_jb.so \
   vendor/htc/mystul/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
-  vendor/htc/mystul/proprietary/lib/libqdcutils.so:system/lib/libqdcutils.so \
+  vendor/htc/mystul/proprietary/lib/libqdcbutils.so:system/lib/libqdcbutils.so \
   vendor/htc/mystul/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
   vendor/htc/mystul/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/mystul/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
