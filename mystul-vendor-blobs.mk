@@ -60,6 +60,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/mystul/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/mystul/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/mystul/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+  vendor/htc/mystul/proprietary/lib/libHTC_DIS.so:system/lib/libHTC_DIS.so \
+  vendor/htc/mystul/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
+  vendor/htc/mystul/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
   vendor/htc/mystul/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
   vendor/htc/mystul/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/mystul/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
@@ -96,6 +99,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/mystul/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
   vendor/htc/mystul/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
   vendor/htc/mystul/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+  vendor/htc/mystul/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
   vendor/htc/mystul/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
   vendor/htc/mystul/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
   vendor/htc/mystul/proprietary/lib/libgsl.so:system/lib/libgsl.so \
@@ -103,17 +107,18 @@ PRODUCT_COPY_FILES += \
   vendor/htc/mystul/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
   vendor/htc/mystul/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
   vendor/htc/mystul/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
-  vendor/htc/mystul/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-  vendor/htc/mystul/proprietary/lib/libgps.so:system/lib/libgps.so \
-  vendor/htc/mystul/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-  vendor/htc/mystul/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
-  vendor/htc/mystul/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-  vendor/htc/mystul/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-  vendor/htc/mystul/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
   vendor/htc/mystul/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
   vendor/htc/mystul/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/mystul/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
   vendor/htc/mystul/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
+  vendor/htc/mystul/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+  vendor/htc/mystul/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmparser_divxdrmlib.so \
+  vendor/htc/mystul/proprietary/lib/libmmcamera_rawchipproc.so:system/lib/libmmcamera_rawchipproc.so \
+  vendor/htc/mystul/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+  vendor/htc/mystul/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
+  vendor/htc/mystul/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+  vendor/htc/mystul/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+  vendor/htc/mystul/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
   vendor/htc/mystul/proprietary/lib/libwvm.so:system/lib/libwvm.so \
   vendor/htc/mystul/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
   vendor/htc/mystul/proprietary/lib/libdiag.so:system/lib/libdiag.so \
