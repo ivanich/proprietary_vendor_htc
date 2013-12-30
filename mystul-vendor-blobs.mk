@@ -63,12 +63,15 @@ PRODUCT_COPY_FILES += \
   vendor/htc/mystul/proprietary/lib/libHTC_DIS.so:system/lib/libHTC_DIS.so \
   vendor/htc/mystul/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
   vendor/htc/mystul/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
+  vendor/htc/mystul/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
+
   vendor/htc/mystul/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
   vendor/htc/mystul/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/mystul/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/mystul/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
   vendor/htc/mystul/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
   vendor/htc/mystul/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+  vendor/htc/mystul/proprietary/lib/libCB.so:system/lib/libCB \
   vendor/htc/mystul/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \
   vendor/htc/mystul/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
   vendor/htc/mystul/proprietary/lib/libcameraasd.so:system/lib/libcameraasd.so \
@@ -97,12 +100,15 @@ PRODUCT_COPY_FILES += \
   vendor/htc/mystul/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
   vendor/htc/mystul/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
   vendor/htc/mystul/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-  vendor/htc/mystul/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-  vendor/htc/mystul/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-  vendor/htc/mystul/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-  vendor/htc/mystul/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-  vendor/htc/mystul/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+  vendor/htc/mystul/proprietary/lib/egl/libEGL_adreno.so:system/lib/egl/libEGL_adreno.so \
+  vendor/htc/mystul/proprietary/lib/egl/libGLESv1_CM_adreno.so:system/lib/egl/libGLESv1_CM_adreno.so \
+  vendor/htc/mystul/proprietary/lib/egl/libGLESv2_adreno.so:system/lib/egl/libGLESv2_adreno.so \
+  vendor/htc/mystul/proprietary/lib/egl/libGLESv2S3D_adreno.so:system/lib/egl/libGLESv2S3D_adreno.so \
+  vendor/htc/mystul/proprietary/lib/egl/libq3dtools_adreno.so:system/lib/egl/libq3dtools_adreno.so \
   vendor/htc/mystul/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+  vendor/htc/mystul/proprietary/lib/libadreno_utils.so:system/lib/libadreno_utils.so \
+  vendor/htc/mystul/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+  vendor/htc/mystul/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
   vendor/htc/mystul/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/mystul/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
   vendor/htc/mystul/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
