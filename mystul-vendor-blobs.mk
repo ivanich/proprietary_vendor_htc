@@ -64,7 +64,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/mystul/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
   vendor/htc/mystul/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
   vendor/htc/mystul/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
-
   vendor/htc/mystul/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
   vendor/htc/mystul/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/mystul/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
