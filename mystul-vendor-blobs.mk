@@ -72,7 +72,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/mystul/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
   vendor/htc/mystul/proprietary/lib/libCB.so:system/lib/libCB \
   vendor/htc/mystul/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \
-  vendor/htc/mystul/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+  vendor/htc/mystul/proprietary/lib/hw/vendor-camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
   vendor/htc/mystul/proprietary/lib/libcameraasd.so:system/lib/libcameraasd.so \
   vendor/htc/mystul/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/mystul/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
@@ -98,12 +98,12 @@ PRODUCT_COPY_FILES += \
   vendor/htc/mystul/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/mystul/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
   vendor/htc/mystul/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
-  vendor/htc/mystul/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-  vendor/htc/mystul/proprietary/lib/egl/libEGL_adreno.so:system/lib/egl/libEGL_adreno.so \
-  vendor/htc/mystul/proprietary/lib/egl/libGLESv1_CM_adreno.so:system/lib/egl/libGLESv1_CM_adreno.so \
-  vendor/htc/mystul/proprietary/lib/egl/libGLESv2_adreno.so:system/lib/egl/libGLESv2_adreno.so \
-  vendor/htc/mystul/proprietary/lib/egl/libGLESv2S3D_adreno.so:system/lib/egl/libGLESv2S3D_adreno.so \
-  vendor/htc/mystul/proprietary/lib/egl/libq3dtools_adreno.so:system/lib/egl/libq3dtools_adreno.so \
+  vendor/htc/mystul/proprietary/lib/egl/eglsubAndroid.so:system/vendor/lib/eglsubAndroid.so \
+  vendor/htc/mystul/proprietary/lib/egl/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
+  vendor/htc/mystul/proprietary/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/libGLESv1_CM_adreno.so \
+  vendor/htc/mystul/proprietary/lib/egl/libGLESv2_adreno.so:system/vendor/lib/libGLESv2_adreno.so \
+  vendor/htc/mystul/proprietary/lib/egl/libGLESv2S3D_adreno.so:system/vendor/lib/libGLESv2S3D_adreno.so \
+  vendor/htc/mystul/proprietary/lib/egl/libq3dtools_adreno.so:system/vendor/lib/libq3dtools_adreno.so \
   vendor/htc/mystul/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/mystul/proprietary/lib/libadreno_utils.so:system/lib/libadreno_utils.so \
   vendor/htc/mystul/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
