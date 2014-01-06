@@ -32,30 +32,10 @@ PRODUCT_COPY_FILES += \
   vendor/htc/mystul/proprietary/etc/firmware/BCM4334B0_002.001.013.0488.0607.hcd:/system/etc/firmware/BCM4334B0_002.001.013.0488.0607.hcd \
   vendor/htc/mystul/proprietary/etc/firmware/a300_pm4.fw:/system/etc/firmware/a300_pm4.fw \
   vendor/htc/mystul/proprietary/etc/firmware/a300_pfp.fw:/system/etc/firmware/a300_pfp.fw \
-  vendor/htc/mystul/proprietary/bin/asound:system/bin/asound \
-  vendor/htc/mystul/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
-  vendor/htc/mystul/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
-  vendor/htc/mystul/proprietary/bin/cand:system/bin/cand \
   vendor/htc/mystul/proprietary/bin/charging:system/bin/charging \
-  vendor/htc/mystul/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
   vendor/htc/mystul/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-  vendor/htc/mystul/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-  vendor/htc/mystul/proprietary/bin/htc_ebdlogd:system/bin/htc_ebdlogd \
-  vendor/htc/mystul/proprietary/bin/mm-audio-alsa-test:system/bin/mm-audio-alsa-test \
-  vendor/htc/mystul/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-  vendor/htc/mystul/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
-  vendor/htc/mystul/proprietary/bin/mm-vdec-omx-test:system/bin/mm-pp-daemon \
-  vendor/htc/mystul/proprietary/bin/mm-venc-omx-test720p:system/bin/mm-venc-omx-test720p \
-  vendor/htc/mystul/proprietary/bin/mm-video-driver-test:system/bin/mm-video-driver-test \
-  vendor/htc/mystul/proprietary/bin/mm-video-encdrv-test:system/bin/mm-video-encdrv-test \
-  vendor/htc/mystul/proprietary/bin/mpdecision:system/bin/mpdecision \
+  vendor/htc/mystul/proprietary/bin/netsharing:system/bin/netsharing \
   vendor/htc/mystul/proprietary/bin/netmgrd:system/bin/netmgrd \
-  vendor/htc/mystul/proprietary/bin/port-bridge:system/bin/port-bridge \
-  vendor/htc/mystul/proprietary/bin/qmiproxy:system/bin/qmiproxy \
-  vendor/htc/mystul/proprietary/bin/qseecomd:system/bin/qseecomd \
-  vendor/htc/mystul/proprietary/bin/racoon:system/bin/racoon \
-  vendor/htc/mystul/proprietary/bin/radish:system/bin/radish \
-  vendor/htc/mystul/proprietary/bin/rild:system/bin/rild \
   vendor/htc/mystul/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/mystul/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/mystul/proprietary/bin/thermald:system/bin/thermald \
