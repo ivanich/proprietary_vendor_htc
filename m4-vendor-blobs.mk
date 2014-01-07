@@ -113,7 +113,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
   vendor/htc/m4/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
   vendor/htc/m4/proprietary/etc/firmware/lscbuffer_rev2.bin:system/etc/firmware/lscbuffer_rev2.bin \
-  vendor/htc/m4/proprietary/lib/hw/vendor-camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
+  vendor/htc/m4/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
   vendor/htc/m4/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
   vendor/htc/m4/proprietary/lib/libcameraasd.so:system/lib/libcameraasd.so \
   vendor/htc/m4/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
