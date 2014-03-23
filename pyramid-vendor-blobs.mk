@@ -37,17 +37,40 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/pyramid/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
-  vendor/htc/pyramid/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
+  vendor/htc/pyramid/proprietary/lib/hw/camera.vendor.msm8660.so:system/lib/hw/camera.vendor.msm8660.so \
+  vendor/htc/pyramid/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
+  vendor/htc/pyramid/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \
+  vendor/htc/pyramid/proprietary/lib/libcameraasd.so:system/lib/libcameraasd.so \
   vendor/htc/pyramid/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/pyramid/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/pyramid/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-  vendor/htc/pyramid/proprietary/lib/libidl.so:system/lib/libidl.so \
+  vendor/htc/pyramid/proprietary/lib/libHTC_DIS.so:system/lib/libHTC_DIS.so \
+  vendor/htc/pyramid/proprietary/lib/libhtccamera.so:system/lib/libhtccamera.so \
+  vendor/htc/pyramid/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
+  vendor/htc/pyramid/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+  vendor/htc/pyramid/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+  vendor/htc/pyramid/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
+  vendor/htc/pyramid/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
+  vendor/htc/pyramid/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
+  vendor/htc/pyramid/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+  vendor/htc/pyramid/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
+  vendor/htc/pyramid/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+  vendor/htc/pyramid/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
+  vendor/htc/pyramid/proprietary/lib/libmmcamera_rawchipproc.so:system/lib/libmmcamera_rawchipproc.so \
+  vendor/htc/pyramid/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+  vendor/htc/pyramid/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
   vendor/htc/pyramid/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
   vendor/htc/pyramid/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+  vendor/htc/pyramid/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
+  vendor/htc/pyramid/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
+  vendor/htc/pyramid/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
+  vendor/htc/pyramid/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
   vendor/htc/pyramid/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-  vendor/htc/pyramid/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
   vendor/htc/pyramid/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
+  vendor/htc/pyramid/proprietary/lib/libqcomomxsample_jb.so:system/lib/libqcomomxsample_jb.so \
+  vendor/htc/pyramid/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
   vendor/htc/pyramid/proprietary/lib/libchromatix_s5k3h1gx_default_video.so:system/lib/libchromatix_s5k3h1gx_default_video.so \
+  vendor/htc/pyramid/proprietary/lib/libchromatix_s5k3h1gx_hdr.so:system/lib/libchromatix_s5k3h1gx_hdr.so \
   vendor/htc/pyramid/proprietary/lib/libchromatix_s5k3h1gx_hfr.so:system/lib/libchromatix_s5k3h1gx_hfr.so \
   vendor/htc/pyramid/proprietary/lib/libchromatix_s5k3h1gx_preview.so:system/lib/libchromatix_s5k3h1gx_preview.so \
   vendor/htc/pyramid/proprietary/lib/libchromatix_s5k3h1gx_zsl.so:system/lib/libchromatix_s5k3h1gx_zsl.so \
@@ -65,6 +88,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
   vendor/htc/pyramid/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/pyramid/proprietary/lib/libdiag.so:system/lib/libdiag.so \
+  vendor/htc/pyramid/proprietary/lib/libidl.so:system/lib/libidl.so \
   vendor/htc/pyramid/proprietary/lib/libdll.so:system/lib/libdll.so \
   vendor/htc/pyramid/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
   vendor/htc/pyramid/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
