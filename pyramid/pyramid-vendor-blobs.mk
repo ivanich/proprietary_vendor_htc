@@ -62,7 +62,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
   vendor/htc/pyramid/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
   vendor/htc/pyramid/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
-  vendor/htc/pyramid/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
   vendor/htc/pyramid/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
   vendor/htc/pyramid/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/htc/pyramid/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
