@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/bin/ipd:system/bin/ipd \
   vendor/htc/pyramid/proprietary/bin/netmgrd:system/bin/netmgrd \
   vendor/htc/pyramid/proprietary/bin/netsharing:system/bin/netsharing \
+  vendor/htc/pyramid/proprietary/bin/radish:system/bin/radish \
   vendor/htc/pyramid/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/pyramid/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/pyramid/proprietary/bin/thermald:system/bin/thermald \
