@@ -24,6 +24,28 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/m4/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/m4/proprietary/etc/agps_rm:system/etc/agps_rm \
+  vendor/htc/m4/proprietary/etc/tfa/deftcoefA.speaker:system/etc/tfa/deftcoefA.speaker \
+  vendor/htc/m4/proprietary/etc/tfa/deftcoefA_l.speaker:system/etc/tfa/deftcoefA_l.speaker \
+  vendor/htc/m4/proprietary/etc/tfa/playback.config:system/etc/tfa/playback.config \
+  vendor/htc/m4/proprietary/etc/tfa/playback.eq:system/etc/tfa/playback.eq \
+  vendor/htc/m4/proprietary/etc/tfa/playback.preset:system/etc/tfa/playback.preset \
+  vendor/htc/m4/proprietary/etc/tfa/playback_l.config:system/etc/tfa/playback_l.config \
+  vendor/htc/m4/proprietary/etc/tfa/playback_l.eq:system/etc/tfa/playback_l.eq \
+  vendor/htc/m4/proprietary/etc/tfa/playback_l.preset:system/etc/tfa/playback_l.preset \
+  vendor/htc/m4/proprietary/etc/tfa/ring.config:system/etc/tfa/ring.config \
+  vendor/htc/m4/proprietary/etc/tfa/ring.eq:system/etc/tfa/ring.eq \
+  vendor/htc/m4/proprietary/etc/tfa/ring.preset:system/etc/tfa/ring.preset \
+  vendor/htc/m4/proprietary/etc/tfa/ring_l.config:system/etc/tfa/ring_l.config \
+  vendor/htc/m4/proprietary/etc/tfa/ring_l.eq:system/etc/tfa/ring_l.eq \
+  vendor/htc/m4/proprietary/etc/tfa/ring_l.preset:system/etc/tfa/ring_l.preset \
+  vendor/htc/m4/proprietary/etc/tfa/tfa9887.patch:system/etc/tfa/tfa9887.patch \
+  vendor/htc/m4/proprietary/etc/tfa/tfa9887_l.patch:system/etc/tfa/tfa9887_l.patch \
+  vendor/htc/m4/proprietary/etc/tfa/voice.config:system/etc/tfa/voice.config \
+  vendor/htc/m4/proprietary/etc/tfa/voice.eq:system/etc/tfa/voice.eq \
+  vendor/htc/m4/proprietary/etc/tfa/voice.preset:system/etc/tfa/voice.preset \
+  vendor/htc/m4/proprietary/etc/tfa/voice_l.config:system/etc/tfa/voice_l.config \
+  vendor/htc/m4/proprietary/etc/tfa/voice_l.eq:system/etc/tfa/voice_l.eq \
+  vendor/htc/m4/proprietary/etc/tfa/voice_l.preset:system/etc/tfa/voice_l.preset \
   vendor/htc/m4/proprietary/etc/firmware/BCM4334B0_002.001.013.1352.1353.hcd:system/etc/firmware/BCM4334B0_002.001.013.1352.1353.hcd \
   vendor/htc/m4/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
   vendor/htc/m4/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
@@ -117,9 +139,19 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/m4/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
   vendor/htc/m4/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+  vendor/htc/m4/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+  vendor/htc/m4/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+  vendor/htc/m4/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+  vendor/htc/m4/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+  vendor/htc/m4/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
   vendor/htc/m4/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
   vendor/htc/m4/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
   vendor/htc/m4/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+  vendor/htc/m4/proprietary/etc/firmware/hcheck.b00:system/etc/firmware/hcheck.b00 \
+  vendor/htc/m4/proprietary/etc/firmware/hcheck.b01:system/etc/firmware/hcheck.b01 \
+  vendor/htc/m4/proprietary/etc/firmware/hcheck.b02:system/etc/firmware/hcheck.b02 \
+  vendor/htc/m4/proprietary/etc/firmware/hcheck.b03:system/etc/firmware/hcheck.b03 \
+  vendor/htc/m4/proprietary/etc/firmware/hcheck.mdt:system/etc/firmware/hcheck.mdt \
   vendor/htc/m4/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/m4/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
   vendor/htc/m4/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
@@ -144,19 +176,22 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/m4/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/m4/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
-  vendor/htc/m4/proprietary/etc/firmware/hcheck.b00:system/etc/firmware/hcheck.b00 \
-  vendor/htc/m4/proprietary/etc/firmware/hcheck.b01:system/etc/firmware/hcheck.b01 \
-  vendor/htc/m4/proprietary/etc/firmware/hcheck.b02:system/etc/firmware/hcheck.b02 \
-  vendor/htc/m4/proprietary/etc/firmware/hcheck.b03:system/etc/firmware/hcheck.b03 \
-  vendor/htc/m4/proprietary/etc/firmware/hcheck.mdt:system/etc/firmware/hcheck.mdt \
+  vendor/htc/m4/proprietary/bin/qseecomd:system/bin/qseecomd \
+  vendor/htc/m4/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+  vendor/htc/m4/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+  vendor/htc/m4/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+  vendor/htc/m4/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+  vendor/htc/m4/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+  vendor/htc/m4/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+  vendor/htc/m4/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
+  vendor/htc/m4/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+  vendor/htc/m4/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+  vendor/htc/m4/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
   vendor/htc/m4/proprietary/etc/firmware/tzapps.b00:system/etc/firmware/tzapps.b00 \
   vendor/htc/m4/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
   vendor/htc/m4/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
   vendor/htc/m4/proprietary/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
   vendor/htc/m4/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
-  vendor/htc/m4/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
-  vendor/htc/m4/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-  vendor/htc/m4/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
   vendor/htc/m4/proprietary/etc/firmware/fw_bcm4334.bin:system/etc/firmware/fw_bcm4334.bin \
   vendor/htc/m4/proprietary/etc/firmware/fw_bcm4334_apsta.bin:system/etc/firmware/fw_bcm4334_apsta.bin \
   vendor/htc/m4/proprietary/etc/firmware/fw_bcm4334_p2p.bin:system/etc/firmware/fw_bcm4334_p2p.bin
