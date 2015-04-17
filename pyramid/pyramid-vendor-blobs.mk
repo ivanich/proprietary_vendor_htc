@@ -66,7 +66,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
   vendor/htc/pyramid/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/htc/pyramid/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
-  vendor/htc/pyramid/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
   vendor/htc/pyramid/proprietary/lib/libqcomomxsample_jb.so:system/lib/libqcomomxsample_jb.so \
   vendor/htc/pyramid/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
   vendor/htc/pyramid/proprietary/lib/libchromatix_s5k3h1gx_default_video.so:system/lib/libchromatix_s5k3h1gx_default_video.so \
