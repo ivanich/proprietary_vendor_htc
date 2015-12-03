@@ -103,6 +103,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/pyramid/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/pyramid/proprietary/lib/libmpl.so:system/lib/libmpl.so \
+  vendor/htc/pyramid/proprietary/lib/libimu.so:system/lib/libimu.so \
   vendor/htc/pyramid/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
   vendor/htc/pyramid/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
   vendor/htc/pyramid/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
